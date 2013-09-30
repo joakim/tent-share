@@ -78,14 +78,14 @@ Sharing over Tent supersedes sharing over email and social networks.
 
 [Potluck](https://www.potluck.it/) is one example of an app dedicated to link sharing.
 
-Twitter-like apps (such as Cupcake) could also add support for `share`, alongside `status`. That would result in something closer to Facebook's news feed. A lot of what you see on Facebook is, in the context of this suggestion, equivalent to a `share` post with a message, referencing a `link` post.
+Twitter-like apps (such as Cupcake) could also add support for `share`, alongside `status`. That would result in something closer to Facebook's news feed. A lot of what you see on Facebook is images and videos with a short text. In the context of this suggestion, that would be a `share` post with a message, referencing a `link` post.
 
-For an app to share a link, it would first create a `link` post, then create a `share` post referencing it.
+For an app to share a link, it would first create a `link` post, then create a `share` post referencing it. The interface would of course simplify this for the user. One would either copy + paste as today, or better, have a universal "Share on Tent" button to embed on websites, or even better, a browser plugin that lets you share whatever you're viewing with the click of a button. To the whole world, or to someone specific. (I'm working on this…)
 
-A `share` post may reference posts of any type. But for now, people are used to only sharing links, and I expect that's what this post type would be used for in the beginning. So apps should as a minimum be able to render a link. It could be as easy as outputting the URL as a link, or as awesome as rendering an embed or a preview of the link's destination using something like [IFramely](http://iframely.com/). Easily beats Facebook's limited previews and Twitter's whitelisted cards.
+A `share` post may reference posts of any type. But for now, people are used to only being able to sharing links, and I expect that's what this post type would be used for in the beginning. So apps should as a minimum be able to render a link. It could be as easy as outputting the URL as a link, or as awesome as rendering an embed or a preview of the link's destination using something like [IFramely](http://iframely.com/). Easily beats Facebook's limited previews and Twitter's whitelisted cards.
 
 #### Share _anything_, you say?
 
 A link can point to anywhere on the web. But let's think bigger than the web. A `share` may reference any Tent post type, so it would only be limited by the post types that are and what they can do. Think the [Internet of Things](https://en.wikipedia.org/wiki/Internet_of_Things). You could share a book you just bought (sharing its ISBN instead of a link to Amazon), a physical location (referencing a `location` post instead of a Google Maps link), or the episode of a TV show you're watching (referencing its UUID from some standardized TV episode database). So yes, _anything_.
 
-Because a `share` has the ability to reference any Tent post, supporting apps would have to have knowledge of the referenced post's type to be able to render it. Machine-readable post schemas could make this easier a lot easier.
+Because a `share` has the ability to reference any Tent post, supporting apps would have to have knowledge of the referenced post's type to be able to render it. Photo is one example I expect people would want to share, but it could be anything. Machine-readable post schemas could make this easier a lot easier.
