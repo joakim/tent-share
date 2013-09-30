@@ -86,7 +86,7 @@ A `share` post may reference posts of any type. But people are used to only shar
 
 #### Share _anything_, you say?
 
-A link can point to anywhere on the web. But let's think bigger than that. A `share` may reference any Tent post type, so it would only be limited by the post types that are and what they can do. Photos, songs, files.
+A link can point to anywhere on the web. But let's think bigger than that. A `share` may reference any Tent post type, so it would only be limited by the post types that are and what they can do. Photos, songs, files…
 
 You could even think of the [Internet of Things](https://www.youtube.com/watch?v=yDYCf4ONh5M#t=681) of the future. You could share a book you just read (its UUID instead of a link to Amazon), the episode of a TV show you're watching (its UUID from some TV episode database), your airline flight, or a physical location (referencing a `location` post instead of a Google Maps link). So yes, potentially _anything_.
 
