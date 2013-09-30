@@ -1,5 +1,7 @@
 **This is a suggestion for a new post type, it does not yet exist. It's a WIP. See [Thoughts](#thoughts) for more.**
 
+See also my suggestion for a [Link](https://github.com/joakim/tent-link) post type.
+
 # Share
 
 Something that is shared.
@@ -60,7 +62,7 @@ There has to be an easier way. Sure, there's the social sharing buttons, almost 
 
 Tent provides a great opportunity to revolutionize sharing. The protocol is more than flexible and powerful enough for any sharing needs, your Tent server keeps all your contacts (up-to-date), it's near-realtime, and you have full control over your privacy.
 
-I also see possibilities beyond simply sharing links, which is why a URL is not included as a field in this post type. To share a link, a `share` post would reference a `link` post. See [Share _anything_, you say?](#share-anything-you-say) for more on this.
+I also see possibilities beyond simply sharing links, which is why a URL is not included as a field in this post type. To share a link, a `share` post would reference a [link](https://github.com/joakim/tent-link) post. See [Share _anything_, you say?](#share-anything-you-say) for more on this.
 
 #### Why not simply use `status`?
 
