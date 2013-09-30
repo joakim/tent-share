@@ -82,7 +82,7 @@ Twitter-like apps (such as Cupcake) could also add support for `share`, alongsid
 
 For an app to share a link, it would first create a `link` post, then create a `share` post referencing it. The interface would of course simplify this for the user. One would either copy + paste as today, or better, have a universal "Share on Tent" button to embed on websites, or even better, a browser plugin that lets you share whatever you're viewing with the click of a button. To the whole world, or to someone specific. (I'm working on this…)
 
-A `share` post may reference posts of any type. But for now, people are used to only being able to sharing links, and I expect that's what this post type would be used for in the beginning. So apps should as a minimum be able to render a link. It could be as easy as outputting the URL as a link, or as awesome as rendering an embed or a preview of the link's destination using something like [IFramely](http://iframely.com/). Easily beats Facebook's limited previews and Twitter's whitelisted cards.
+A `share` post may reference posts of any type. But people are used to only share links, and I expect that's what this post type would be used for to begin with. So apps should as a minimum be able to render a link. It could be as easy as outputting the URL as a link, or as awesome as rendering an embed or a preview of the link's destination using something like [IFramely](http://iframely.com/). Easily beats Facebook's limited previews and Twitter's whitelisted cards.
 
 #### Share _anything_, you say?
 
