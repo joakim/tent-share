@@ -92,4 +92,4 @@ You could even think of the [Internet of Things](https://www.youtube.com/watch?v
 
 This wouldn't be the same as creating a `location` or `episode` post, and making it public. You could of course do that as well (and you possibly would). But those posts would only be read by users who have subscribed to those post types. `share` is what you'd use when you want to **push** something to someone else (or the whole world).
 
-Because a `share` has the ability to reference any Tent post, supporting apps would have to have knowledge of the referenced post's type to be able to correctly render it. Machine-readable post schemas should make this a bit easier. This would also open up nicely for new "embed" services similar to IFramely and Embedly.
+Because a `share` has the ability to reference any Tent post, supporting apps would have to have knowledge of the referenced post's type to be able to correctly render a representation of it. Machine-readable post schemas should make this a bit easier. This would also open up nicely for new "embed" services similar to IFramely and Embedly.
