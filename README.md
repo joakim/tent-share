@@ -58,7 +58,7 @@ To illustrate, this is how we often share links today:
 4. Type in the recipients and a little text
 5. And finally, click Send
 
-There has to be an easier way. Sure, there's myriad of social sharing buttons. It's all kinda messy, you have to decide which walled garden to share to, and they're all eating your soul (well, your privacy at least). And as The Atlantic has shown, these walled gardens only account for about 30% of all sharing (for media sites at least).
+There has to be an easier way. Sure, there's a myriad of social sharing buttons. It's all kinda messy, you have to decide which walled garden to share to, and they're all eating your soul (well, your privacy at least). And as The Atlantic has shown, these walled gardens only account for about 30% of all sharing (for media sites at least).
 
 Tent provides a great opportunity to revolutionize sharing. The protocol is more than flexible and powerful enough for any sharing needs, your Tent server keeps all your contacts (up-to-date), it's near-realtime, and you have full control over your privacy.
 
