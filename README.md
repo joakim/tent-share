@@ -90,6 +90,6 @@ A link can point to anywhere on the web. But let's think bigger than that. A `sh
 
 You could even think of the [Internet of Things](https://www.youtube.com/watch?v=yDYCf4ONh5M#t=682) of the future. You could share a book you just read (its UUID instead of a link to Amazon), the episode of a TV show you're watching (its UUID from some TV episode database), your airline flight, or a physical location (referencing a `location` post instead of a Google Maps link). So yes, potentially _anything_.
 
-This wouldn't be the same as creating e.g. a `location` post, or a specialized app creating an `episode` post, and making it public. You could of course do that as well (and you possibly would). But those posts would only be read by users who have subscribed to those post types. `share` is what you'd use when you want to **push** something to someone else (or the whole world).
+This wouldn't be the same as creating a `location` or `episode` post, and making it public. You could of course do that as well (and you possibly would). But those posts would only be read by users who have subscribed to those post types. `share` is what you'd use when you want to **push** something to someone else (or the whole world).
 
 Because a `share` has the ability to reference any Tent post, supporting apps would have to have knowledge of the referenced post's type to be able to correctly render it. Machine-readable post schemas should make this a bit easier. It could also open up nicely for new "embed services" similar to IFramely and Embedly.
