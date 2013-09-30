@@ -55,8 +55,8 @@ To illustrate, this is how we often share links today:
 1. Copy the link from the address bar
 2. Open Facebook/Twitter/Tumblr/email/chat
 3. Paste the link
-4. Type in the recipients and a little text
-5. And finally, click Send
+4. Maybe type in the recipients and a little text
+5. Click Send
 
 There has to be an easier way. Sure, there's a myriad of social sharing buttons. It's all kinda messy, you have to decide which walled garden to share to, and they're all eating your soul (well, your privacy at least). And as The Atlantic has shown, these walled gardens only account for about 30% of all sharing (for media sites at least).
 
