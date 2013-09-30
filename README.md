@@ -86,8 +86,10 @@ A `share` post may reference posts of any type. But people are used to only shar
 
 #### Share _anything_, you say?
 
-A link can point to anywhere on the web. But let's think bigger than that. A `share` may reference any Tent post type, so it would only be limited by the post types that are and what they can do. Photos, songs, files. You could even think of the [Internet of Things](https://www.youtube.com/watch?v=yDYCf4ONh5M#t=681). You could share a book you just read (sharing its UUID instead of a link to Amazon), a physical location (referencing a `location` post instead of a Google Maps link), or the episode of a TV show you're watching (referencing its UUID from some standardized TV episode database), or your airline flight. So yes, _anything_.
+A link can point to anywhere on the web. But let's think bigger than that. A `share` may reference any Tent post type, so it would only be limited by the post types that are and what they can do. Photos, songs, files.
 
-This is not the same as creating e.g. a `location` post or a specialized app creating an `episode` post. You could (and possibly would) of course do that as well. But those posts would only be read by users and apps who have subscribed to those post types. `share` is what you'd use when you want to push something to someone else (or the whole world).
+You could even think of the [Internet of Things](https://www.youtube.com/watch?v=yDYCf4ONh5M#t=681) of the future. You could share a book you just read (its UUID instead of a link to Amazon), the episode of a TV show you're watching (its UUID from some TV episode database), your airline flight, or a physical location (referencing a `location` post instead of a Google Maps link). So yes, potentially _anything_.
+
+This wouldn't be the same as creating e.g. a `location` post, or a specialized app creating an `episode` post. You could (and possibly would) of course do that as well. But those posts would only be read by users and apps who have subscribed to those post types. `share` is what you'd use when you want to push something to someone else (or the whole world).
 
 Because a `share` has the ability to reference any Tent post, supporting apps would have to have knowledge of the referenced post's type to be able to correctly render it. Machine-readable post schemas should make this a bit easier. It could also open up nicely for new "embed services" similar to IFramely and Embedly.
