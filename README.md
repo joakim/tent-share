@@ -74,7 +74,7 @@ That said, the relationship to `status` seems a bit tricky. One could `share` a 
 
 #### How would apps use this?
 
-Sharing over Tent supersedes sharing over email and social networks. Different kinds of apps may support `share` posts.
+Sharing over Tent supersedes sharing over email and social networks.
 
 [Potluck](https://www.potluck.it/) is one example of an app dedicated to link sharing.
 
