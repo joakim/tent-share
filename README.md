@@ -53,7 +53,7 @@ This also means that still, in 2013, we mostly use copy + paste to share somethi
 To illustrate, this is how we often share links today:
 
 1. Copy the link from the address bar
-2. Open Facebook/Twitter/Tumblr/email
+2. Open Facebook/Twitter/Tumblr/email/chat
 3. Paste the link
 4. Type in the recipients and a little text
 5. And finally, click Send
