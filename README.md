@@ -1,4 +1,4 @@
-**This is a suggestion for a new post type, it does not yet exist. It's a WIP. See [Thoughts](#thoughts) for more.**
+**This is a suggestion for a new post type, it does not yet exist. WIP. See [Thoughts](#thoughts) for more.**
 
 See also my suggestion for the related [Link](https://github.com/joakim/tent-link) post type.
 
