@@ -70,7 +70,7 @@ Status posts are designed for conversations, having been modeled after Twitter. 
 
 Having a separate post type for sharing opens up for a whole range of new apps and use cases. It also gives it a semantic meaning. Sharing some _thing_ is an action that is very different from sharing some _thoughts_ or participating in a discussion.
 
-That said, the relationship to `status` seems a bit tricky. One could `share` a `status` (which would be different from a repost), and a `status` post could reference a `share`. I'm not yet sure what the implications of this could be..
+That said, the relationship to `status` seems a bit tricky. One could `share` a `status` (which would be different from a repost), and a `status` post could reference a `share`. Not yet sure what this could mean, or how to avoid any problems there.
 
 #### How would apps use this?
 
