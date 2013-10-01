@@ -14,6 +14,7 @@ The thing to be shared is specified by the `refs` property. Recipients and priva
 
 | Property | Required | Type | Description |
 | -------- | -------- | ---- | ----------- |
+| `type` | Optional | String | Type URI of referenced (shared) post. |
 | `message` | Optional | String | A short text about this share from the owner of the post. |
 
 #### Example
@@ -21,6 +22,7 @@ The thing to be shared is specified by the `refs` property. Recipients and priva
 ```json
 {
   "content": {
+    "type": "https://tent.io/types/photo/v0",
     "message": "An interesting article on link sharing, and how most of it happens outside of the traditional social networks.",
   },
   "refs": [
