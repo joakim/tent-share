@@ -44,7 +44,7 @@ The thing to be shared is specified by the `refs` property. Recipients and priva
 
 ## Thoughts
 
-(This turned into more of a blog post/rant than I had planned..!)
+(This turned into more of a thinking out loud blogpost/rant… sorry about that.)
 
 ### Some background
 
@@ -84,14 +84,14 @@ Twitter-like apps (such as Cupcake) could also add support for `share`, alongsid
 
 For an app to share a link, it would first create a `link` post, then create a `share` post referencing it. The interface would of course simplify this for the user. One would either copy + paste as today, or even better, use a browser plugin that lets you share whatever you're viewing with the click of a button. To the whole world, or to someone specific. (I'd like to make this…)
 
-A `share` post may reference posts of any type. But people are used to share links, and I expect that's what this post type would be used for to begin with. So apps should as a minimum be able to render a link. It could be as easy as outputting the URL as a link, or as awesome as rendering an embed or a preview of the link's destination using something like [IFramely](http://iframely.com/). But, read on…
+A `share` post may reference posts of any type. But people are used to sharing links, and I expect that's what this post type would be used for to begin with. So apps should as a minimum be able to render a link. It could be as easy as outputting the URL as a link, or as awesome as rendering an embed or a preview of the link's destination using something like [IFramely](http://iframely.com/). But, read on…
 
 #### Share _anything_, you say?
 
 A link can point to anywhere on the web, but this is after all Tent. A `share` may reference any Tent post type, so it would only be limited by the post types that are and what they can do. Photos, albums, songs, essays, files…
 
-You could even think of the [Internet of Things](https://www.youtube.com/watch?v=yDYCf4ONh5M#t=682) of the future. You could share a book you just read (its UUID instead of a link to Amazon), the episode of a TV show you're watching (its UUID from some TV episode database), your airline flight, or a physical location (referencing a `location` post instead of a Google Maps link). So yes, potentially _anything_.
+You could even think of the [Internet of Things](https://www.youtube.com/watch?v=yDYCf4ONh5M#t=681) of the future. You could share a book you just read (its UUID instead of a link to Amazon), the episode of a TV show you're watching (its UUID from some TV episode database), your airline flight, or a physical location (referencing a `location` post instead of a Google Maps link). So yes, potentially _anything_.
 
 This wouldn't be the same as creating a `location` or `episode` post, and making it public. You could of course do that as well (and you possibly would). But those posts would only be read by users who have subscribed to those post types, and by apps that support them. `share` is what you'd use when you want say "this _____ is interesting, you should check it out!".
 
-Because a `share` has the ability to reference any Tent post, supporting apps would have to be able to display a representation of the referenced post. This is the big problem/question with this post type suggestion. Machine-readable post schemas could help, but what seems like a more likely solution is "embed" services like IFramely and Embedly…
+Because a `share` has the ability to reference any Tent post, supporting apps would have to be able to display a representation of the referenced post. This is the big problem/question with this post type suggestion. Machine-readable post schemas could help, but what seems like a more likely solution is "embed" services like IFramely and Embedly… It's a problem that has to be solved outside of the protocol.
